@@ -16,7 +16,7 @@ table below.
 After you deploy the contract, you need to call the `setVRFConfig` function
 with appropriate parameters. These parameters are:
 
-|   **Name**    | ** Type** |                      ** Description**                       |
+|   **Name**    | **Type**  |                       **Description**                       |
 | :-----------: | :-------: | :---------------------------------------------------------: |
 | `coordinator` | `address` |         The Kenshi VRF Coordinator contract address         |
 |    `utils`    | `address` |            The Kenshi VRF Utils contract address            |
