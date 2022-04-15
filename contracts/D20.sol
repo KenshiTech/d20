@@ -16,12 +16,11 @@ contract D20 is VRFConsumer {
      */
     function setVRFConfig(
         address coordinator,
-        address utils,
-        address kenshi,
-        bool verify
+        bool verify,
+        bool silent
     ) public {
         require(msg.sender == _owner, "Only owner");
-        setupVRF(coordinator, utils, kenshi, verify);
+        setupVRF(coordinator, verify, silent);
     }
 
     /**

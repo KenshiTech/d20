@@ -7,9 +7,10 @@ table below.
 
 |       **Chain**        |                                                           **Address**                                                           |
 | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
-|      BSC testnet       |  [0xa1A0f77E6970de78B9463Da40AEA8948FA298c6a](https://testnet.bscscan.com/address/0xa1A0f77E6970de78B9463Da40AEA8948FA298c6a)   |
-| Polygon Mumbai testnet | [0xa95b1401B44F1855C5147f94064d9EeeBE50085b](https://mumbai.polygonscan.com/address/0xa95b1401B44F1855C5147f94064d9EeeBE50085b) |
-|     Fantom testnet     |  [0x62d9b73C79365cff0C21ac58428a42D20E274e64](https://testnet.ftmscan.com/address/0x62d9b73C79365cff0C21ac58428a42D20E274e64)   |
+|      BSC testnet       |  [0x398d50B3494e3cd64018b8FD39BC88c02064BF98](https://testnet.bscscan.com/address/0x398d50B3494e3cd64018b8FD39BC88c02064BF98)   |
+| Polygon Mumbai testnet | [0x17D7dC8B5B4C64c27A5F69Cd9De4F97D44Ca7af5](https://mumbai.polygonscan.com/address/0x17D7dC8B5B4C64c27A5F69Cd9De4F97D44Ca7af5) |
+|     Fantom testnet     |  [0xc9De8dE11d09A5C1C3e5E9B5a104e3357ff6148d](https://testnet.ftmscan.com/address/0xc9De8dE11d09A5C1C3e5E9B5a104e3357ff6148d)   |
+| Avalanche Fuji testnet |  [0x274F14d02c60933Db669B84A434608d5c262A603](https://testnet.snowtrace.io/address/0x274f14d02c60933db669b84a434608d5c262a603)  |
 
 ## After deployment
 
@@ -19,9 +20,11 @@ with appropriate parameters. These parameters are:
 |   **Name**    | **Type**  |                       **Description**                       |
 | :-----------: | :-------: | :---------------------------------------------------------: |
 | `coordinator` | `address` |         The Kenshi VRF Coordinator contract address         |
-|    `utils`    | `address` |            The Kenshi VRF Utils contract address            |
-|   `kenshi`    | `address` |          The Kenshi ERC1363 token contract address          |
 |   `verify`    |  `bool`   | Whether to verify the randomness on-chain (affects gas fee) |
+|   `silent`    |  `bool`   |  Whether to emit an event on randomness (affects gas fee)   |
+
+Notes: In the `setupVRF` function of the Kenshi VRF library, the last two parameters of the above
+table are optional.
 
 You can find the contract address of each chain on our documentation
 website [here](https://docs.kenshi.io/services/vrf/contracts.html).
