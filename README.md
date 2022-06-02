@@ -7,10 +7,10 @@ table below.
 
 |       **Chain**        |                                                           **Address**                                                           |
 | :--------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
-|      BSC testnet       |  [0x398d50B3494e3cd64018b8FD39BC88c02064BF98](https://testnet.bscscan.com/address/0x398d50B3494e3cd64018b8FD39BC88c02064BF98)   |
-| Polygon Mumbai testnet | [0x17D7dC8B5B4C64c27A5F69Cd9De4F97D44Ca7af5](https://mumbai.polygonscan.com/address/0x17D7dC8B5B4C64c27A5F69Cd9De4F97D44Ca7af5) |
-|     Fantom testnet     |  [0xc9De8dE11d09A5C1C3e5E9B5a104e3357ff6148d](https://testnet.ftmscan.com/address/0xc9De8dE11d09A5C1C3e5E9B5a104e3357ff6148d)   |
-| Avalanche Fuji testnet |  [0x274F14d02c60933Db669B84A434608d5c262A603](https://testnet.snowtrace.io/address/0x274f14d02c60933db669b84a434608d5c262a603)  |
+|      BSC testnet       |  [0xA585Aa1A06a17a0DC2Ee8b12EfD40b08826020F1](https://testnet.bscscan.com/address/0xA585Aa1A06a17a0DC2Ee8b12EfD40b08826020F1)   |
+| Polygon Mumbai testnet | [0xc490A24dd3A2600DbedD3CC1E7151c1D7645b656](https://mumbai.polygonscan.com/address/0xc490A24dd3A2600DbedD3CC1E7151c1D7645b656) |
+|     Fantom testnet     |  [0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167](https://testnet.ftmscan.com/address/0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167)   |
+| Avalanche Fuji testnet |  [0x9877690753444fa090C107bF83ea48F7EdAD7937](https://testnet.snowtrace.io/address/0x9877690753444fa090C107bF83ea48F7EdAD7937)  |
 
 ## After deployment
 
