@@ -35,7 +35,4 @@ Once the setup is done, you can call the `roll` function on the D20 smart contra
 This function asks the VRF coordinator for `randomness`. Once the requested `randomness`
 is received, the `fulfillRandomness` function emits a `Rolled` event.
 
-## Testnet Kenshi
 
-Your contract needs to hold some testnet Kenshi to pay for VRF fees. You can request for
-testnet Kenshi in our [Telegram chat](https://t.me/kenshi_token).
