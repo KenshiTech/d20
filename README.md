@@ -11,6 +11,7 @@ table below.
 | Polygon Mumbai testnet | [0xc490A24dd3A2600DbedD3CC1E7151c1D7645b656](https://mumbai.polygonscan.com/address/0xc490A24dd3A2600DbedD3CC1E7151c1D7645b656) |
 |     Fantom testnet     |  [0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167](https://testnet.ftmscan.com/address/0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167)   |
 | Avalanche Fuji testnet |  [0x9877690753444fa090C107bF83ea48F7EdAD7937](https://testnet.snowtrace.io/address/0x9877690753444fa090C107bF83ea48F7EdAD7937)  |
+|    Ethereum Goerli     |  [0x68EB019C53D8FE3Ffe60784617377649Cd9380C9](https://goerli.etherscan.io/address/0x68EB019C53D8FE3Ffe60784617377649Cd9380C9)   |
 
 ## After deployment
 
